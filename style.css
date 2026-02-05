@@ -1,0 +1,12 @@
+body {
+    background-color: aliceblue;
+}
+a.logo {
+ color: transparent;
+ background-image: url(images/Logo.png);
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+a.main-nav {
+    size: 500px;
+}
