@@ -1,5 +1,60 @@
 body {
-    background-color: aliceblue;
+    background-color: #8f969d;
+    color: #f7f9fa;
+    font-family: "Playwrite NZ Basic", cursive;
+}
+h1 {
+    font-size: 64px;
+    font-family: "Sour Gummy", sans-serif;
+    text-align: center;
+
+}
+h2, h3 {
+    margin: 1em;
+}
+#section-header {
+    font-size: 30px;
+    text-align: center;
+    color: #3a4548;
+}
+.section-body {
+    color: #f7f9fa;
+    padding: 2em;
+    text-align: left;
+    font-size: medium;
+}
+figure {
+    float: right;
+}
+figure img {
+    border: 3px solid #f7f9fa;
+    width: 600px;
+    height: 800px;
+}
+cite {
+    font-size: 25px;
+}
+nav ul a:hover {
+    color: #067a84;
+}
+a:hover {
+    color: #067a84;
+}
+a:link {
+    color: #3a4548;
+}
+a:visited {
+    color: #3a4548;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+    border: 2px solid #f7f9fa;
 }
 a.logo {
  color: transparent;
