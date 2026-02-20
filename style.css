@@ -38,6 +38,18 @@ figure img {
     max-width: 80%;
     height: auto;
 }
+li {
+    margin-bottom: 10px;
+}
+table, td {
+    border: 1px solid #f7f9fa;
+    width: 30%;
+    margin-left: 20px;
+}
+th {
+    border: 1px solid #f7f9fa;
+    text-align: center;
+}
 cite {
 
 }
