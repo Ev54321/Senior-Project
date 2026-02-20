@@ -62,10 +62,11 @@ a:visited {
     color: #3a4548;
 }
 nav {
-    transition: height o.5s ease-in;
+    transition: height 0.5s ease-in;
 }
 nav ul {
     display: flex;
+    z-index: -1;
     flex-direction: column;
     list-style-type: none;
     width: 50%;
@@ -102,6 +103,9 @@ span.bar {
 /* hidden menu */
 ul.hidden {
     transform: translateY(-300px) scaleY(0);
+    transition: transform 0.5s ease-in;
+}
+nav.minimized {
     transition: transform 0.5s ease-in;
 }
 @media screen and (min-width: 1080px) {
