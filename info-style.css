@@ -28,6 +28,10 @@ h2, h3 {
     text-align: left;
     font-size: larger;
 }
+.left-figure {
+    float: left;
+    margin-left: -5em;
+}
 .right-figure {
     float: right;
     margin-right: -5em;
@@ -37,26 +41,6 @@ figure img {
     border-radius: 8px;
     max-width: 80%;
     height: auto;
-}
-li {
-    margin-bottom: 10px;
-}
-table, td {
-    border: 1px solid #f7f9fa;
-    width: 30%;
-    margin-left: 20px;
-}
-th {
-    border: 1px solid #f7f9fa;
-    text-align: center;
-}
-.button {
-    background-color: #067a84;
-    text-align: center;
-    border-radius: 8px;
-    color: #3a4548;
-    text-decoration: none;
-    margin-left: 10px;
 }
 /* parallax scrolling */
 .main-parallax {

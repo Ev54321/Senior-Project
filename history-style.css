@@ -38,26 +38,6 @@ figure img {
     max-width: 80%;
     height: auto;
 }
-li {
-    margin-bottom: 10px;
-}
-table, td {
-    border: 1px solid #f7f9fa;
-    width: 30%;
-    margin-left: 20px;
-}
-th {
-    border: 1px solid #f7f9fa;
-    text-align: center;
-}
-.button {
-    background-color: #067a84;
-    text-align: center;
-    border-radius: 8px;
-    color: #3a4548;
-    text-decoration: none;
-    margin-left: 10px;
-}
 /* parallax scrolling */
 .main-parallax {
     background-image: url(images/pictureback-helmet-1857627_1280.jpg);
