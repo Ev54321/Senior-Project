@@ -1,13 +1,9 @@
-body {
+html, body {
     background-color: #8f969d;
     color: #f7f9fa;
     font-family: "Playwrite NZ Basic", cursive;
-}
-html {
     scroll-behavior: smooth;
-}
-body {
-    overflow-x: hidden;
+    max-width: 100%;
 }
 h1 {
     font-size: 64px;
@@ -21,30 +17,36 @@ h2, h3 {
     font-size: 30px;
     text-align: center;
     color: #3a4548;
+
 }
 .section-body {
     color: #f7f9fa;
     padding: 1em;
-    text-align: left;
+    text-align: center;
     font-size: larger;
+}
+.container {
+    display: flex;
+    align-items: center;
+    caption-side: bottom;
+}
+.container img {
+    border: 2px solid #f7f9fa; 
+    flex-direction: column; 
+}
+img {
+    width: 400px;
+    height: auto;
 }
 .left-figure {
     float: left;
-    margin-left: -5em;
 }
 .right-figure {
     float: right;
-    margin-right: -5em;
-}
-figure img {
-    border: 3px solid #f7f9fa;
-    border-radius: 8px;
-    max-width: 80%;
-    height: auto;
 }
 /* parallax scrolling */
 .main-parallax {
-    background-image: url(images/pictureback-helmet-1857627_1280.jpg);
+    background-image: url();
     min-height: 800px;
     background-attachment: fixed;
     background-position: center;

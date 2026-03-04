@@ -1,13 +1,8 @@
-body {
+html, body {
     background-color: #8f969d;
     color: #f7f9fa;
     font-family: "Playwrite NZ Basic", cursive;
-}
-html {
-    scroll-behavior: smooth;
-}
-body {
-    overflow-x: hidden;
+    max-width: 100%;
 }
 h1 {
     font-size: 64px;
@@ -30,7 +25,6 @@ h2, h3 {
 }
 .right-figure {
     float: right;
-    margin-right: -5em;
 }
 figure img {
     border: 3px solid #f7f9fa;
