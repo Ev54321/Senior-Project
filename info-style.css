@@ -28,7 +28,6 @@ h2, h3 {
 .container {
     display: flex;
     align-items: center;
-    caption-side: bottom;
 }
 .container img {
     border: 2px solid #f7f9fa; 
