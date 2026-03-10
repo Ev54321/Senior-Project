@@ -17,7 +17,6 @@ h2, h3 {
     font-size: 30px;
     text-align: center;
     color: #3a4548;
-
 }
 .section-body {
     color: #f7f9fa;
@@ -25,9 +24,15 @@ h2, h3 {
     text-align: center;
     font-size: larger;
 }
+.section-body-2 {
+    color: #f7f9fa;
+    padding: 1em;
+    text-align: center;
+    font-size: larger;
+}
 .container {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 .container img {
     border: 2px solid #f7f9fa; 
@@ -37,16 +42,20 @@ img {
     width: 400px;
     height: auto;
 }
-.left-figure {
-    float: left;
+table{
+    border: 1px solid #f7f9fa;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
 }
-.right-figure {
-    float: right;
+th {
+    border: 1px solid #f7f9fa;
+    text-align: center;
 }
 /* parallax scrolling */
 .main-parallax {
     background-image: url();
-    min-height: 800px;
+    min-height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
