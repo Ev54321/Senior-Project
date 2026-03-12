@@ -17,7 +17,7 @@ h1 {
 h2, h3 {
     margin: 1em;
 }
-#section-header {
+.section-header {
     font-size: 30px;
     text-align: center;
     color: #3a4548;
@@ -26,11 +26,14 @@ h2, h3 {
     color: #f7f9fa;
     padding: 1em;
     text-align: left;
-    font-size: larger;
+    font-size: 25px;
 }
 .right-figure {
     float: right;
     margin-right: -5em;
+}
+.left-figure {
+    float: left;
 }
 figure img {
     border: 3px solid #f7f9fa;
@@ -40,7 +43,7 @@ figure img {
 }
 /* parallax scrolling */
 .main-parallax {
-    background-image: url(images/pictureback-helmet-1857627_1280.jpg);
+    background-image: url();
     min-height: 800px;
     background-attachment: fixed;
     background-position: center;
