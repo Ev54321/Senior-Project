@@ -1,12 +1,9 @@
-body {
+html, body {
     background-color: #8f969d;
     color: #f7f9fa;
     font-family: "Playwrite NZ Basic", cursive;
-}
-html {
     scroll-behavior: smooth;
-}
-body {
+    max-width: 100%;
     overflow-x: hidden;
 }
 h1 {
@@ -28,6 +25,14 @@ h2, h3 {
     text-align: left;
     font-size: 25px;
 }
+.container {
+    display: flex;
+    justify-content: center;
+}
+.container img {
+    border: 2px solid #f7f9fa; 
+    flex-direction: column;
+}
 .right-figure {
     float: right;
     margin-right: -5em;
@@ -41,15 +46,10 @@ figure img {
     max-width: 80%;
     height: auto;
 }
-/* parallax scrolling */
-.main-parallax {
-    background-image: url();
-    min-height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+cite {
+    font-size: 13px;
 }
+/* parallax scrolling */
 nav ul a:hover {
     color: #067a84;
 }
