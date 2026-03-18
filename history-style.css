@@ -32,6 +32,8 @@ h2, h3 {
 .container img {
     border: 2px solid #f7f9fa; 
     flex-direction: column;
+    width: 1000px;
+    height: auto;
 }
 .right-figure {
     float: right;
@@ -50,6 +52,21 @@ cite {
     font-size: 13px;
 }
 /* parallax scrolling */
+.main-parallax {
+    background-image: url(images/Paul-and-Mike.webp);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-background {
+    background-image: url();
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    
+}
 nav ul a:hover {
     color: #067a84;
 }
