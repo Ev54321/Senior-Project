@@ -17,7 +17,7 @@ h1 {
 h2, h3 {
     margin: 1em;
 }
-#section-header {
+.section-header {
     font-size: 30px;
     text-align: center;
     color: #3a4548;
@@ -27,6 +27,9 @@ h2, h3 {
     padding: 1em;
     text-align: left;
     font-size: larger;
+}
+.section-flex {
+    display: flex;
 }
 .right-figure {
     float: right;
@@ -40,12 +43,7 @@ figure img {
 }
 /* parallax scrolling */
 .main-parallax {
-    background-image: url(images/pictureback-helmet-1857627_1280.jpg);
-    min-height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 nav ul a:hover {
     color: #067a84;
