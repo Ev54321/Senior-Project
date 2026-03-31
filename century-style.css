@@ -25,11 +25,17 @@ h2, h3 {
 .section-body {
     color: #f7f9fa;
     padding: 1em;
-    text-align: left;
+    font-size: larger;
+}
+.section-body-center {
+    color: #f7f9fa;
+    padding: 1em;
+    text-align: center;
     font-size: larger;
 }
 .section-flex {
     display: flex;
+justify-content: center;
 }
 .right-figure {
     float: right;
