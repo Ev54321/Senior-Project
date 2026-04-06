@@ -28,36 +28,23 @@ h2, h3 {
     text-align: left;
     font-size: larger;
 }
-.right-figure {
-    float: right;
-    margin-right: -5em;
-}
-figure img {
-    border: 3px solid #f7f9fa;
-    border-radius: 8px;
-    max-width: 80%;
-    height: auto;
-}
-/* parallax scrolling */
-.main-parallax {
-    background-image: url(images/pictureback-helmet-1857627_1280.jpg);
-    min-height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-nav ul a:hover {
-    color: #067a84;
-}
-a:hover {
+.section-box {
     color: #f7f9fa;
+    font-size: large;
 }
-a:link {
-    color: #3a4548;
+/* navbar menu */
+a.hamburger-toggle {
+    display: flex;
+    flex-direction: column;
+    width: 35px;
 }
-a:visited {
-    color: #3a4548;
+span.bar {
+    display: inline-block;
+    width: 35px;
+    height: 5px;
+    border-radius: 8px;
+    background-color: #f7f9fa;
+    margin: 3px 0;
 }
 nav {
     transition: height 0.5s ease-in;
@@ -82,24 +69,42 @@ nav ul a {
     border: 2px solid #f7f9fa;
     background-color: #8f969d;
 }
+figure img {
+    border: 3px solid #f7f9fa;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+.right-figure {
+    float: right;
+}
+.transparent-box {
+    background-color: rgba(125, 138, 138, 0.5);
+    padding: 20px;
+    border: 2px solid #f7f9fa;
+    width: 50%;
+}
+/* parallax scrolling */
+.main-parallax {
+
+}
+nav ul a:hover {
+    color: #067a84;
+}
+a:hover {
+    color: #f7f9fa;
+}
+a:link {
+    color: #3a4548;
+}
+a:visited {
+    color: #3a4548;
+}
 .logo-img {
     width: 150px;
     height: auto;
     float: right;
-}
-/* navbar menu */
-a.hamburger-toggle {
-    display: flex;
-    flex-direction: column;
-    width: 35px;
-}
-span.bar {
-    display: inline-block;
-    width: 35px;
-    height: 5px;
-    border-radius: 8px;
-    background-color: #f7f9fa;
-    margin: 3px 0;
+    opacity: 75%;
 }
 /* hidden menu */
 ul.hidden {

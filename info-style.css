@@ -94,6 +94,7 @@ nav ul a {
     width: 150px;
     height: auto;
     float: right;
+    opacity: 75%;
 }
 /* navbar menu */
 a.hamburger-toggle {
