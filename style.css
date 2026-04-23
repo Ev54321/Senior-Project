@@ -21,19 +21,18 @@ h2, h3 {
     color: #f7f9fa;
     padding: 1em;
     text-align: left;
-    font-size: larger;
+    font-size: 25px;
 }
 .right-figure {
     float: right;
 }
 .figure-image1 {
-    max-width: 40%;
     height: auto;
 }
 figure img {
     border: 3px solid #f7f9fa;
     border-radius: 8px;
-    max-width: 80%;
+    max-width: 60%;
     height: auto;
 }
 table, td {
@@ -52,6 +51,12 @@ th {
     color: #3a4548;
     text-decoration: none;
     margin-left: 10px;
+}
+.transparent-box {
+    background-color: rgba(125, 138, 138, 0.5);
+    padding: 20px;
+    border: 2px solid #f7f9fa;
+    width: 50%;
 }
 
 /* navbar menu */
@@ -97,14 +102,17 @@ a:visited {
 }
 
 /* parallax scrolling */
-.main-parallax {
+.parallax {
     background-image: url(images/Team-huddle.jpg);
-    min-height: 850px;
+    min-height: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #3a4548;
+    opacity: 55%;
 }
+
 
 /* Mobile */
 @media screen and (min-width: 1080px) {
