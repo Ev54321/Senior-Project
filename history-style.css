@@ -96,6 +96,20 @@ a:visited {
     float: right;
     opacity: 75%;
 }
+.box {
+    background-color: rgba(125, 138, 138, 0.5);
+    border: 2px solid #f7f9fa;
+    width: 98%;
+}
+.box-right {
+    float: right;
+    background-color: rgba(125, 138, 138, 0.5);
+    border: 2px solid #f7f9fa;
+    width: 50%;
+}
+.bottom-box {
+
+}
 
 /* parallax scrolling */
 .main-parallax {
