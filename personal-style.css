@@ -32,6 +32,9 @@ h2, h3 {
     color: #f7f9fa;
     font-size: large;
 }
+.right-figure {
+    float: right;
+}
 figure img {
     float: right;
     border: 3px solid #f7f9fa;
@@ -39,9 +42,7 @@ figure img {
     max-width: 30%;
     height: auto;
 }
-.right-figure {
-    float: right;
-}
+
 .transparent-box {
     background-color: rgba(125, 138, 138, 0.5);
     padding: 20px;

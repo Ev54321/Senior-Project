@@ -1,8 +1,9 @@
-html, body {
+html,body {
     background-color: #8f969d;
     color: #f7f9fa;
     font-family: "Playwrite NZ Basic", cursive;
-    max-width: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 h1 {
     font-size: 64px;
@@ -26,13 +27,11 @@ h2, h3 {
 .right-figure {
     float: right;
 }
-.figure-image1 {
-    height: auto;
-}
 figure img {
+    float: right;
     border: 3px solid #f7f9fa;
     border-radius: 8px;
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
 }
 table, td {
@@ -54,9 +53,14 @@ th {
 }
 .transparent-box {
     background-color: rgba(125, 138, 138, 0.5);
-    padding: 20px;
     border: 2px solid #f7f9fa;
     width: 50%;
+}
+.bottom-box {
+    background-color: rgba(125, 138, 138, 0.5);
+    border: 2px solid #f7f9fa;
+    width: 80%;
+    margin-left: 10%;
 }
 
 /* navbar menu */
@@ -112,7 +116,10 @@ a:visited {
     background-color: #3a4548;
     opacity: 55%;
 }
-
+.parallax-space {
+    background-color: #8f969d;
+    min-height: 100px;
+}
 
 /* Mobile */
 @media screen and (min-width: 1080px) {

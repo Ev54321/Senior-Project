@@ -14,6 +14,9 @@ h1 {
 h2, h3 {
     margin: 1em;
 }
+hr {
+    height: 10px;
+}
 .section-header {
     font-size: 30px;
     text-align: center;
@@ -37,11 +40,11 @@ h2, h3 {
 }
 .right-figure {
     float: right;
-    margin-right: -5em;
 }
 .left-figure {
     float: left;
 }
+
 figure img {
     border: 3px solid #f7f9fa;
     border-radius: 8px;
@@ -99,22 +102,29 @@ a:visited {
 .box {
     background-color: rgba(125, 138, 138, 0.5);
     border: 2px solid #f7f9fa;
-    width: 98%;
+    border-radius: 8px;
+    width: 60%;
 }
 .box-right {
     float: right;
     background-color: rgba(125, 138, 138, 0.5);
     border: 2px solid #f7f9fa;
-    width: 50%;
+    width: 60%;
+    margin-right: 5%;
+    margin-top: 5%;
 }
 .bottom-box {
-
+    justify-content: center;
 }
+/*
+Extra image of Paul and Mike
+images/Paul-and-Mike.webp
+
 
 /* parallax scrolling */
 .main-parallax {
-    background-image: url(images/Paul-and-Mike.webp);
-    min-height: 500px;
+    background-color: #8f969d;
+    min-height: 100px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
