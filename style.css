@@ -51,7 +51,7 @@ th {
     text-decoration: none;
     margin-left: 10px;
 }
-.transparent-box {
+.box {
     background-color: rgba(125, 138, 138, 0.5);
     border: 2px solid #f7f9fa;
     width: 50%;
@@ -61,6 +61,11 @@ th {
     border: 2px solid #f7f9fa;
     width: 80%;
     margin-left: 10%;
+}
+footer {
+    text-align: left;
+    font-size: small;
+    color: #3a4548;
 }
 
 /* navbar menu */

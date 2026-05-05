@@ -1,13 +1,9 @@
-body {
+html,body {
     background-color: #8f969d;
     color: #f7f9fa;
     font-family: "Playwrite NZ Basic", cursive;
-}
-html {
-    scroll-behavior: smooth;
-}
-body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 h1 {
     font-size: 64px;
@@ -46,6 +42,21 @@ figure img {
     border-radius: 8px;
     max-width: 80%;
     height: auto;
+}
+.box {
+    background-color: rgba(125, 138, 138, 0.5);
+    border: 2px solid #f7f9fa;
+    width: 100%;
+}
+.small-box {
+    background-color: rgba(125, 138, 138, 0.5);
+    border: 2px solid #f7f9fa;
+    width: 57%;
+}
+footer {
+    font-size: small;
+    color: #3a4548;
+
 }
 
 /* navbar menu */
@@ -96,6 +107,13 @@ a:visited {
 /* parallax scrolling */
 .main-parallax {
     
+}
+.space {
+    background-color: #8f969d;
+    min-height: 100px;
+}
+.large-space {
+
 }
 
 /* Mobile */

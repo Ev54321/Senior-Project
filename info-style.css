@@ -47,6 +47,23 @@ th {
     border: 1px solid #f7f9fa;
     text-align: center;
 }
+.box {
+    background-color: rgba(125, 138, 138, 0.5);
+    border: 2px solid #f7f9fa;
+    border-radius: 4px;
+    width: 75%;
+    justify-self: center;
+    margin-top: 3%;
+}
+.button {
+    background-color: #067a84;
+    text-align: center;
+    border-radius: 8px;
+    color: #3a4548;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
 
 /* navbar menu */
 nav {
@@ -95,16 +112,25 @@ a:visited {
 
 /* parallax scrolling */
 .main-parallax {
-    background-image: url();
-    min-height: 400px;
+    background-image: url(images/Century-lacrosse-faceoff.jpg);
+    min-height: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #3a4548;
+    opacity: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.parallax-space {
+.space {
     background-color: #8f969d;
     min-height: 150px;
+}
+.large-space {
+    background-color: #8f969d;
+    min-height: 300px;
 }
 
 /* Mobile */
