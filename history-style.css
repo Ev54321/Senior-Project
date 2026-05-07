@@ -14,9 +14,6 @@ h1 {
 h2, h3 {
     margin: 1em;
 }
-hr {
-    height: 10px;
-}
 .section-header {
     font-size: 30px;
     text-align: center;
@@ -41,10 +38,6 @@ hr {
 .right-figure {
     float: right;
 }
-.left-figure {
-    float: left;
-}
-
 figure img {
     border: 3px solid #f7f9fa;
     border-radius: 8px;
@@ -54,12 +47,40 @@ figure img {
 cite {
     font-size: 13px;
 }
+.box {
+    background-color: rgba(125, 138, 138, 0.5);
+    border: 2px solid #f7f9fa;
+    border-radius: 8px;
+    width: 75%;
+    justify-self: center;
+}
+.box-right {
+
+    display: flex;
+    justify-self: right;
+    background-color: rgba(125, 138, 138, 0.5);
+    border: 2px solid #f7f9fa;
+    width: 60%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.bottom-box {
+    background-color: rgba(125, 138, 138, 0.5);
+    border: 2px solid #f7f9fa;
+    width: 60%;
+}
+.inside-box {
+    background-color: #3a4548;
+    border: 2px solid #f7f9fa;
+    width: 70%;
+}
 
 /* navbar menu */
 nav {
     position: fixed;
     top: 1em;
     width: 100%;
+    z-index: 1000;
 }
 nav ul {
     position: relative;
@@ -99,43 +120,24 @@ a:visited {
     float: right;
     opacity: 75%;
 }
-.box {
-    background-color: rgba(125, 138, 138, 0.5);
-    border: 2px solid #f7f9fa;
-    border-radius: 8px;
-    width: 60%;
-}
-.box-right {
-    float: right;
-    background-color: rgba(125, 138, 138, 0.5);
-    border: 2px solid #f7f9fa;
-    width: 60%;
-    margin-right: 5%;
-    margin-top: 5%;
-}
-.bottom-box {
-    justify-content: center;
-}
-/*
-Extra image of Paul and Mike
-images/Paul-and-Mike.webp
-
 
 /* parallax scrolling */
-.main-parallax {
+.space {
     background-color: #8f969d;
     min-height: 100px;
+}
+.parallax {
+    background-image: url(images/Paul-and-Mike.webp);
+    min-height: 1100px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.parallax-background {
-    background-image: url();
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-    
+    background-color: #3a4548;
+    opacity: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Mobile */

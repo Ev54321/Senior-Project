@@ -46,12 +46,17 @@ figure img {
 .box {
     background-color: rgba(125, 138, 138, 0.5);
     border: 2px solid #f7f9fa;
-    width: 100%;
+    border-radius: 8px;
+    width: 90%;
+    justify-self: center;
+    margin-top: 3%;
 }
 .small-box {
     background-color: rgba(125, 138, 138, 0.5);
     border: 2px solid #f7f9fa;
+    border-radius: 8px;
     width: 57%;
+    justify-self: center;
 }
 footer {
     font-size: small;
