@@ -6,7 +6,7 @@ html,body {
     overflow-x: hidden;
 }
 h1 {
-    font-size: 64px;
+    font-size: 3.5vw;
     font-family: "Sour Gummy", sans-serif;
     text-align: center;
 }
@@ -22,10 +22,7 @@ h2, h3 {
     color: #f7f9fa;
     padding: 1em;
     text-align: left;
-    font-size: 25px;
-}
-.right-figure {
-    float: right;
+    font-size: 1.5vw;
 }
 figure img {
     float: right;
@@ -53,7 +50,7 @@ th {
 }
 .box {
     background-color: rgba(125, 138, 138, 0.5);
-    border: 2px solid #f7f9fa;
+    border: 2px solid #d2d7da;
     width: 50%;
 }
 .bottom-box {
@@ -62,10 +59,15 @@ th {
     width: 80%;
     margin-left: 10%;
 }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 footer {
     text-align: left;
     font-size: small;
-    color: #3a4548;
+    color: black;
 }
 
 /* navbar menu */
@@ -121,13 +123,13 @@ a:visited {
     background-color: #3a4548;
     opacity: 55%;
 }
-.parallax-space {
+.space {
     background-color: #8f969d;
     min-height: 100px;
 }
 
 /* Mobile */
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 60em) {
     nav ul {
         flex-direction: row;
     }
