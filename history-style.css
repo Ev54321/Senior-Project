@@ -58,16 +58,19 @@ cite {
     display: flex;
     background-color: rgba(125, 138, 138, 0.5);
     border: 2px solid #f7f9fa;
+    border-radius: 8px;
     width: 50%;
 }
 .bottom-box {
     background-color: rgba(125, 138, 138, 0.5);
     border: 2px solid #f7f9fa;
+    border-radius: 8px;
     width: 60%;
 }
 .inside-box {
     background-color: #3a4548;
     border: 2px solid #f7f9fa;
+    border-radius: 8px;
     width: 70%;
 }
 .flex-container {
@@ -84,16 +87,15 @@ nav {
     position: fixed;
     top: 1em;
     width: 100%;
-    z-index: 1000;
 }
 nav ul {
     position: relative;
     display: flex;
+    flex-direction: column;
     list-style-type: none;
-    width: 50%;
+    width: 30%;
     padding: 0;
     margin: 0;
-    transform: translateY(0);
 }
 nav ul a {
     text-decoration: none;
