@@ -55,6 +55,7 @@ th {
     width: 75%;
     justify-self: center;
     padding: 20px;
+    z-index: 900;
 }
 .button {
     background-color: #067a84;
@@ -71,6 +72,7 @@ nav {
     position: fixed;
     top: 1em;
     width: 100%;
+    z-index: 999;
 }
 nav ul {
     position: relative;
@@ -127,6 +129,19 @@ a:visited {
 }
 .background-parallax-2 {
     background-image: url(images/Century_lacrosse_image2.jpg);
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3a4548;
+    opacity: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-parallax-3 {
+    background-image: url(images/Century_lacrosse_image4.jpg);
     min-height: 1000px;
     background-attachment: fixed;
     background-position: center;
